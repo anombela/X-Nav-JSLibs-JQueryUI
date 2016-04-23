@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>Eventos</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link href="interface.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+
+
+
+<!-- Tabs -->
+<h1 class="demoHeaders">Eventos</h1>
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">Usuarios</a></li>
+		<li><a href="#tabs-2">Registrarse</a></li>
+		<li><a href="#tabs-3">Eventos</a></li>
+	</ul>
+
+
+	<div id="tabs-1">
+		<div id="accordion">
+			<h3>Usuario 1º</h3>
+			<div>
+				<p>Nombre: Pepe</p>
+				<p>Mail: pepe@hotmmail.com</p>
+			</div>
+			<h3>Usuario 2º</h3>
+			<div>
+				<p>Nombre: Juan</p>
+				<p>Mail: juan@hotmmail.com</p>
+			</div>
+			<h3>Usuario 3º</h3>
+			<div>
+				<p>Nombre: Sara</p>
+				<p>Mail: sara@hotmmail.com</p>
+			</div>
+			<h3>Usuario 4º</h3>
+			<div>
+				<p>Nombre: Abdul</p>
+				<p>Mail: abdul@hotmmail.com</p>
+			</div>
+		</div>
+	</div>
+	<div id="tabs-2">
+
+		<div>
+			<p>Nombre: <input id="autocomplete" title="type &quot;a&quot;"></p>
+			<p>Mail: <input id="autocomplete" value="...@hotmail.com" title="type &quot;a&quot;"></p>
+
+			<p>Fecha de nacimiento: <input type="text" id="datepicker"></p>
+
+			<p><form>
+  				<input type="radio" name="gender" value="male" checked>Masculino<br>
+  				<input type="radio" name="gender" value="female">Femenino<br>
+  				<input type="radio" name="gender" value="other">Otro
+			</form></p>
+			<p><input type="submit" value="Aceptar"></p>
+		</div>
+			
+
+	</div>
+	<div id="tabs-3">
+
+		<div id="draggable" class="ui-widget-content">
+  			<p>Deslizar hasta un evento</p>
+		</div>
+ 
+		<div id="droppable" class="ui-widget-header">
+  			<p>Evento 1</p>
+		</div>
+
+		<div id="droppable2" class="ui-widget-header">
+  			<p>Evento 2</p>
+		</div>
+
+	</div>
+</div>
+
+
+<script src="external/jquery/jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script src="interface.js"></script>
+
+</body>
+</html>
